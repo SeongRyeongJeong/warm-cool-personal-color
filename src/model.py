@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # GitHub models/ 폴더에 올려둘 weight 파일 이름
-MODEL_PATH = "../models/warm_cool_model.h5"
+MODEL_PATH = "../models/personal_color_mobilenetv2_model.h5"
 
 # 학습할 때 사용한 클래스 순서에 맞게
 CLASS_NAMES = ["cool", "warm"]
